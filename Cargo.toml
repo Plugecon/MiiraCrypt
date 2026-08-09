@@ -1,0 +1,11 @@
+[package]
+name = "MiiraCrypt-Desktop"
+version = "2.0.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.28" # Движок дизайна (egui)
+rfd = "0.14"    # Системные окна "Открыть файл"
+
+[build-dependencies]
+cc = "1.0"      # Компилятор C++
