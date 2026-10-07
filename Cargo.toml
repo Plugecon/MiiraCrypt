@@ -1,0 +1,13 @@
+[package]
+name = "miiracrypt-desktop"
+version = "3.0.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
+aes-gcm = "0.10"
+argon2 = "0.5"
+rand = "0.8"
+rfd = "0.15" # для удобного выбора файлов
+windows = { version = "0.62.2", features = ["Win32_System_SystemInformation"] }
